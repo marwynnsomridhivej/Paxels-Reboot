@@ -1,0 +1,48 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "category": "equipment",
+    "group": "paxels:paxels",
+    "ingredients": [
+      {
+        "item": "minecraft:stone_axe"
+      },
+      {
+        "item": "minecraft:stone_shovel"
+      },
+      {
+        "item": "minecraft:stone_pickaxe"
+      }
+    ],
+    "result": {
+      "id": "minecraft:stone_axe",
+      "components": {
+        "minecraft:item_name": "{\"translate\":\"paxels.stone_paxel\",\"fallback\":\"Stone Paxel\"}",
+        "minecraft:custom_model_data": 349580,
+        "minecraft:custom_data": "{paxels:{is_paxel:true, type:\"stone\"}}",
+        "minecraft:tool": {
+          "rules": [
+            {
+              "blocks": "#minecraft:incorrect_for_stone_tool",
+              "correct_for_drops": false
+            },
+            {
+              "blocks": "#minecraft:mineable/axe",
+              "speed": 4,
+              "correct_for_drops": true
+            },
+            {
+              "blocks": "#minecraft:mineable/pickaxe",
+              "speed": 4,
+              "correct_for_drops": true
+            },
+            {
+              "blocks": "#minecraft:mineable/shovel",
+              "speed": 4,
+              "correct_for_drops": true
+            }
+          ]
+        }
+      }
+    }
+  }
+  

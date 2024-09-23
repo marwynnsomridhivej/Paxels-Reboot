@@ -1,0 +1,48 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "category": "equipment",
+    "group": "paxels:paxels",
+    "ingredients": [
+      {
+        "item": "minecraft:iron_axe"
+      },
+      {
+        "item": "minecraft:iron_shovel"
+      },
+      {
+        "item": "minecraft:iron_pickaxe"
+      }
+    ],
+    "result": {
+      "id": "minecraft:iron_axe",
+      "components": {
+        "minecraft:item_name": "{\"translate\":\"paxels.iron_paxel\",\"fallback\":\"Iron Paxel\"}",
+        "minecraft:custom_model_data": 349580,
+        "minecraft:custom_data": "{paxels:{is_paxel:true, type:\"iron\"}}",
+        "minecraft:tool": {
+          "rules": [
+            {
+              "blocks": "#minecraft:incorrect_for_iron_tool",
+              "correct_for_drops": false
+            },
+            {
+              "blocks": "#minecraft:mineable/axe",
+              "speed": 6,
+              "correct_for_drops": true
+            },
+            {
+              "blocks": "#minecraft:mineable/pickaxe",
+              "speed": 6,
+              "correct_for_drops": true
+            },
+            {
+              "blocks": "#minecraft:mineable/shovel",
+              "speed": 6,
+              "correct_for_drops": true
+            }
+          ]
+        }
+      }
+    }
+  }
+  

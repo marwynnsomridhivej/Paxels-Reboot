@@ -1,0 +1,48 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "category": "equipment",
+    "group": "paxels:paxels",
+    "ingredients": [
+      {
+        "item": "minecraft:wooden_axe"
+      },
+      {
+        "item": "minecraft:wooden_shovel"
+      },
+      {
+        "item": "minecraft:wooden_pickaxe"
+      }
+    ],
+    "result": {
+      "id": "minecraft:wooden_axe",
+      "components": {
+        "minecraft:item_name": "{\"translate\":\"paxels.wood_paxel\",\"fallback\":\"Wooden Paxel\"}",
+        "minecraft:custom_model_data": 349580,
+        "minecraft:custom_data": "{paxels:{is_paxel:true, type:\"wood\"}}",
+        "minecraft:tool": {
+          "rules": [
+            {
+              "blocks": "#minecraft:incorrect_for_wooden_tool",
+              "correct_for_drops": false
+            },
+            {
+              "blocks": "#minecraft:mineable/axe",
+              "speed": 2,
+              "correct_for_drops": true
+            },
+            {
+              "blocks": "#minecraft:mineable/pickaxe",
+              "speed": 2,
+              "correct_for_drops": true
+            },
+            {
+              "blocks": "#minecraft:mineable/shovel",
+              "speed": 2,
+              "correct_for_drops": true
+            }
+          ]
+        }
+      }
+    }
+  }
+  
