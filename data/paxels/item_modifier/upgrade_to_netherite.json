@@ -1,0 +1,19 @@
+[
+    {
+      "function": "minecraft:set_components",
+      "components": {
+        "minecraft:item_name": "{\"translate\":\"paxels.netherite_paxel\",\"fallback\":\"Netherite Paxel\"}",
+        "minecraft:tool": {
+            "rules": [
+                  {"blocks":"#minecraft:incorrect_for_netherite_tool","correct_for_drops":false},
+                  {"blocks": "#minecraft:mineable/axe","speed": 9,"correct_for_drops": true},
+                  {"blocks": "#minecraft:mineable/pickaxe","speed": 9,"correct_for_drops": true},
+                  {"blocks": "#minecraft:mineable/shovel","speed": 9,"correct_for_drops": true}
+                ]
+            },
+        "minecraft:custom_model_data": 349580,
+        "minecraft:custom_data": {"paxels":{"is_paxel":true, "type":"netherite"}}
+      }
+    }
+  ]
+  
