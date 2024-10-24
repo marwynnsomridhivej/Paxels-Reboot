@@ -3,15 +3,9 @@
     "category": "equipment",
     "group": "paxels:paxels",
     "ingredients": [
-      {
-        "item": "minecraft:golden_axe"
-      },
-      {
-        "item": "minecraft:golden_shovel"
-      },
-      {
-        "item": "minecraft:golden_pickaxe"
-      }
+      "minecraft:golden_axe",
+      "minecraft:golden_shovel",
+      "minecraft:golden_pickaxe"
     ],
     "result": {
       "id": "minecraft:golden_axe",

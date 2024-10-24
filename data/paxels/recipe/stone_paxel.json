@@ -3,15 +3,9 @@
     "category": "equipment",
     "group": "paxels:paxels",
     "ingredients": [
-      {
-        "item": "minecraft:stone_axe"
-      },
-      {
-        "item": "minecraft:stone_shovel"
-      },
-      {
-        "item": "minecraft:stone_pickaxe"
-      }
+      "minecraft:stone_axe",
+      "minecraft:stone_shovel",
+      "minecraft:stone_pickaxe"
     ],
     "result": {
       "id": "minecraft:stone_axe",
